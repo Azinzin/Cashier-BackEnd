@@ -19,8 +19,8 @@ A backend for a cafe website built with Node.js, Express, MySQL, and Sequelize. 
 
 1. Clone this repository
     ```bash
-    git clone https://github.com/username/cafe-website-backend.git
-    cd cafe-website-backend
+    git clone https://github.com/Azinzin/Cashier-BackEnd
+    cd Cashier-BackEnd
     ```
 
 2. Install dependencies
@@ -28,12 +28,9 @@ A backend for a cafe website built with Node.js, Express, MySQL, and Sequelize. 
     npm install
     ```
 
-3. Create a `.env` file and configure it according to your environment
-    ```plaintext
-    DB_HOST=localhost
-    DB_USER=root
-    DB_PASSWORD=yourpassword
-    DB_NAME=cafe_db
+3. Create the MySQL database
+    ```sql
+    CREATE DATABASE cashier;
     ```
 
 4. Run database migrations
